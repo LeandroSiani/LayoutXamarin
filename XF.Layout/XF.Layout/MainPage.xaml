@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.Layout"
+             x:Class="XF.Layout.MainPage">
+
+    <StackLayout>        
+        <Label Text="Layouts simples"></Label>
+        <Button x:Name="BtnStack" Text="Stack Layout" Clicked="ButtonLayoutClicked"></Button>
+
+        <Label Text="layout absoluto"></Label>
+        <Button x:Name="BtnAbsolut" Text="Absolut Layout" Clicked="ButtonLayoutClicked"></Button>
+
+        <Label Text="login absoluto"></Label>
+        <Button x:Name="BtnLoginAbsolut" Text="Login Absolut Layout" Clicked="ButtonLayoutClicked"></Button>
+
+        <Label Text="layout relativo"></Label>
+        <Button x:Name="BtnRelative" Text="Relative Layout" Clicked="ButtonLayoutClicked"></Button>
+
+        <Label Text="layout grid"></Label>
+        <Button x:Name="BtnGrid" Text="Grid Layout" Clicked="ButtonLayoutClicked"></Button>
+
+        <Label Text="layout flex"></Label>
+        <Button x:Name="BtnFlex" Text="Flex Layout" Clicked="ButtonLayoutClicked"></Button>
+    </StackLayout>
+
+</ContentPage>

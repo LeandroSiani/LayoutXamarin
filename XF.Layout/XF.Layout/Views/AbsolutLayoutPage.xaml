@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Layout.Views.AbsolutLayoutPage">
+    <ContentPage.Content>
+        <AbsoluteLayout >
+            <BoxView Color="#FFF25022"
+                AbsoluteLayout.LayoutBounds="32, 32, 150, 200" />
+            <BoxView Color="#FF7FBA00"
+                AbsoluteLayout.LayoutBounds="214, 32, 150, 200" />
+            <BoxView Color="#FF01A4EF"
+                AbsoluteLayout.LayoutBounds="32, 264, 150, 200" />
+            <BoxView Color="#FFFFB901"
+                AbsoluteLayout.LayoutBounds="214, 264, 150, 200" />           
+            
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
